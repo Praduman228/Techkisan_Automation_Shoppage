@@ -1,70 +1,47 @@
-# Getting Started with Create React App
+# MERN-E-Commerce-Frontend
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+MERN-E-Commerce-Frontend is the frontend of an e-commerce web application built with ReactJS ,Material UI, ContextAPI, React-router-dom
 
-## Available Scripts
+## Live Link
 
-In the project directory, you can run:
+You can access the live application at [https://e-shopit.vercel.app/](https://e-shopit.vercel.app/).
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- User authentication and authorization(JWT)
+- Admin dashboard for managing products, orders, users and to show statistics
+- Payemnt Gateway
+- Mail Service
+- Forgot Password & Reset Password
+- Product listing and search
+- Product details and reviews
+- Cart management
+- Order history
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Tech Stack
+- MongoDB
+- ReactJS
+- NodeJS
+- ExpressJS
+## Images
 
-### `npm test`
+![Dashboard](https://res.cloudinary.com/dxguqzge7/image/upload/v1682853694/Stat1_asehhd.png)
+![Dashboard](https://res.cloudinary.com/dxguqzge7/image/upload/v1682853694/Stat2_tw25cm.png)
+![Dashboard](https://res.cloudinary.com/dxguqzge7/image/upload/v1682956688/Stat3_rslfzi.png)
+![Orders](https://res.cloudinary.com/dxguqzge7/image/upload/v1682956689/Orders_cyfzkp.png)
+![Users](https://res.cloudinary.com/dxguqzge7/image/upload/v1682956689/Users_nxx1cs.png)
+![HomePage](https://res.cloudinary.com/dxguqzge7/image/upload/v1682853694/Home_bcr44v.png)
+![Products](https://res.cloudinary.com/dxguqzge7/image/upload/v1682853695/Products_vxf8pr.png)
+![Product](https://res.cloudinary.com/dxguqzge7/image/upload/v1682853694/Product_tnba6w.png)
+![Payment](https://res.cloudinary.com/dxguqzge7/image/upload/v1682853693/Payment_xrucd9.png)
+![Cart](https://res.cloudinary.com/dxguqzge7/image/upload/v1682853693/Cart_zpzmwr.png)
+![UserProfile](https://res.cloudinary.com/dxguqzge7/image/upload/v1682853694/User_lyfday.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Backend
 
-### `npm run build`
+The backend of the application is built with NodeJS and ExpressJS and uses a MongoDB database to store the product and user data. The source code for the backend can be found at [https://github.com/Saurabh-8585/MERN-E-Commerce-Backend](https://github.com/Saurabh-8585/MERN-E-Commerce-Backend).
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## License
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
